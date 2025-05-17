@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.457) 0%, rgba(7, 254, 7, 0.382) 100%);
+}
+h1{
+    text-align: center;
+    padding-top: 61.93333333px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-decoration: overline underline;
+    transition: all 1s;
+}
+h1:hover{
+    letter-spacing: 10px;
+    color: blueviolet;
+}
+.imgGal{
+    padding: 122px;
+    margin: auto;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 10%;
+    border: 1px solid black;
+    transition: all 1s;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black, 4px 4px 4px gold;
+}
+img:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+#bigWindow{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    backdrop-filter: blur(5px) brightness(50%);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#clkImg{
+    width: 40%;
+    height: 70%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px gray , 5px 5px 5px gray;
+    border: 1px solid black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cls-btn:hover{
+    transform: rotate(405deg) scale(1.3);
+}
+#cls-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    display: flex;
+    position: absolute;
+    top: 1vw;
+    right: 2vw;
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+    cursor: pointer;
+}
