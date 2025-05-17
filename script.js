@@ -1,5 +1,5 @@
 var images = document.images;
-for (var i = 1; i < images.length; i++) {
+for (var i = 1; i <= images.length; i++) {
     images[i].src = `https://raw.githubusercontent.com/SivaNageswar123/MyGallery/refs/heads/main/${i}.jpg`;
     images[i].style.width = '200px';
     images[i].style.height = '200px';
