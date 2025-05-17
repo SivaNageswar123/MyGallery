@@ -1,6 +1,6 @@
 var image=document.images;
 for(var i=1;i<image.length;i++){
-    image[i].src=`https://github.com/SivaNageswar123/MyGallery/blob/main/${i}.jpg`;
+    image[i].src=`https://raw.githubusercontent.com/SivaNageswar123/MyGallery/refs/heads/main/${i}.jpg`;
     document.getElementsByTagName('img')[i].style.width='200px';
     document.getElementsByTagName('img')[i].style.height='200px';
 }
